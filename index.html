@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Farm Information Registration</title>
+  </head>
+  <body>
+    <section class="main_page">
+      <div class="header">
+        <h1>Farm Information Registration</h1>
+      </div>
+      <div class="main">
+        <form action="">
+          <div>
+            <label for="dateReg">date registered</label>
+            <input type="date" id="dateReg" name="date" placeholder="" />
+          </div>
+
+          <div>
+            <label for="plantname">name of plant</label>
+            <input
+              type="text"
+              id="plantname"
+              name="plant"
+              placeholder="Water Yam"
+            />
+          </div>
+
+          <div>
+            <label for="bname">botanical name</label>
+            <input
+              type="text"
+              id="bname"
+              name="botanical"
+              placeholder="Dioceria Alata"
+            />
+          </div>
+
+          <div>
+            <label for="pseason">planting season</label>
+            <input
+              type="text"
+              id="pseason"
+              name="season"
+              placeholder="Beginning of raining season"
+            />
+          </div>
+
+          <div>
+            <label for="soil">soil type</label>
+            <input
+              type="text"
+              id="soil"
+              name="soil"
+              placeholder="Clay soil or forest soil"
+            />
+          </div>
+
+          <div>
+            <label for="tools">farming tools</label>
+            <input
+              type="text"
+              id="tools"
+              name="tools"
+              placeholder="Hoe and shovel"
+            />
+          </div>
+
+          <div>
+            <label for="fmethod">farming method</label>
+            <input
+              type="text"
+              id="fmethod"
+              name="method"
+              placeholder="Dig soil before planting"
+            />
+          </div>
+
+          <button type="reset">NEW</button>
+          <button type="submit" class="btn1">SAVE</button>
+          <button type="button">PRINT</button>
+          <button type="button">CLOSE</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="saved_data_page">
+      <div class="backBtn_container">
+        <button class="backBtn">Go back</button>
+      </div>
+
+      <div class="details_container">
+        <div class="table_container">
+          <div class="sec1 sec">
+            <div class="sec_head">
+              <h3>Date Registered</h3>
+            </div>
+          </div>
+          <div class="sec2 sec">
+            <div class="sec_head">
+              <h3>Name Of Plant</h3>
+            </div>
+          </div>
+          <div class="sec3 sec">
+            <div class="sec_head">
+              <h3>Botanical Name</h3>
+            </div>
+          </div>
+          <div class="sec4 sec">
+            <div class="sec_head">
+              <h3>Plantting Season</h3>
+            </div>
+          </div>
+          <div class="sec5 sec">
+            <div class="sec_head">
+              <h3>Soil Type</h3>
+            </div>
+          </div>
+          <div class="sec6 sec">
+            <div class="sec_head">
+              <h3>Farming Tool</h3>
+            </div>
+          </div>
+          <div class="sec7 sec">
+            <div class="sec_head">
+              <h3>Farming Method</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="soilTypeContainer">
+        <h5>Soil Type:</h5>
+        <input type="text" name="" id="inpute" />
+        <button class="query_btn">query</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
